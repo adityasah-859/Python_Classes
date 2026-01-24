@@ -1,0 +1,7 @@
+----------------------------------------------------------------------------------------------------
+Execution Time: 2026-01-24 20:20:48.626540 Standard Customers: 4960 Premium Customers: 40
+----------------------------------------------------------------------------------------------------
+Total Premium Collected across all customers: ₹1092018445.1176877
+Highest Premium paid by any customer: ₹58743.87248515314
+Lowest Premium paid by any customer: ₹10000
+Average Premium per customer: ₹218403.68902353753
