@@ -126,3 +126,33 @@ FROM dept d
 LEFT JOIN emp e
 ON d.deptno = e.deptno
 GROUP BY d.dname;
+
+
+-- 06 SHEET ----
+
+SELECT CURDATE() AS today;
+
+SELECT CURDATE() + INTERVAL 1 DAY AS tomorrow;
+
+SELECT CURDATE() - INTERVAL 1 DAY AS Yesterday;
+
+SELECT DATEDIFF(CURDATE(),CURDATE()) AS date_difference;
+
+SELECT DATEDIFF(CURDATE(), '2025-01-23') AS date_difference;
+
+SELECT DATE_FORMAT(CURDATE(),'%d/%m/%y') AS formatted_date;
+
+SELECT UPPER(DAYNAME(CURDATE())) AS today;
+
+SELECT DATE_FORMAT(CURDATE(),'%a') AS day_abbreviation;
+
+SELECT NOW() AS curr_time;
+
+SELECT current_time();
+
+SELECT DATE_FORMAT(CURRENT_TIMESTAMP(),'%H:%i:%s') AS curr_Time;
+
+SELECT STR_TO_DATE('24/09/25', '%d/%m/%y') AS converted_date;
+
+SELECT LAST_DAY(CURDATE()) AS month_end;
+
